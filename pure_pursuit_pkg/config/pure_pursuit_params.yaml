@@ -1,0 +1,11 @@
+pure_pursuit_node:
+  ros__parameters:
+    odom_topic: "/ego_racecar/odom"
+    drive_topic: "/drive"
+    min_lookahead: 0.4
+    max_lookahead: 1.2
+    min_velocity: 2.0
+    max_velocity: 3.0
+    smoothing_factor: 0.8
+    curvature_normalization_factor: 0.01
+
